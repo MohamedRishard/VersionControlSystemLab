@@ -1,1 +1,12 @@
-hitbvf
+cmdkey /list
+cmdkey /delete:git:https://github.com
+
+git remote -v
+git push -u origin main
+
+git checkout -b test
+git status
+git add .
+git commit -m "Hi"
+git push origin test
+
